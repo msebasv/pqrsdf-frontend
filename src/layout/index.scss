@@ -1,0 +1,22 @@
+@import '../styles/colors';
+
+.container-layout {
+    //display: flex;
+    //min-height: 100vh;
+    //flex-direction: column;
+    //display: grid;
+    //min-height: 100vh;
+    //grid-template-rows: auto 1fr auto;
+
+    header {
+
+        border-bottom: 1px solid $black-color;
+    }
+
+    main {}
+
+    footer {
+        background-color: #181f2a;
+        //margin-top: auto;
+    }
+}

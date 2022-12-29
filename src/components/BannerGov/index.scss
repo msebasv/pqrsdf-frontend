@@ -1,0 +1,15 @@
+@import '../../styles/colors.scss';
+
+.container-banner-gov {
+    background-color: #00afef;
+
+    &:hover {
+        background-color: $black-color;
+        cursor: pointer;
+    }
+
+    .img-gov-logo {
+        padding: 10px 0px;
+        width: 200px;
+    }
+}

@@ -1,0 +1,11 @@
+@import "~bootstrap/scss/bootstrap";
+@import './styles/colors';
+@import './styles/fonts.scss';
+
+body {
+  margin: 0;
+  font-family: $primary-font;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #4b4f58;
+}

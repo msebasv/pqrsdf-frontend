@@ -1,0 +1,90 @@
+@import '../../styles/colors';
+
+.container-footer {
+  color: $white-color;
+
+  .gov-logo {
+    width: 300px;
+    height: 100px;
+  }
+
+  .co-colombia-logo {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 30px;
+
+    @media screen and (min-width: 769px) {
+      margin: auto;
+    }
+  }
+
+  .brand-footer {
+    width: 300;
+    height: 116px;
+    justify-content: center;
+    margin-bottom: 30px;
+
+    @media screen and (min-width: 769px) {
+      width: 300;
+      height: 113px;
+      margin: auto;
+    }
+
+    @media screen and (min-width: 1200px) {
+      width: 360;
+      height: 130px;
+    }
+  }
+
+  .col2-footer,
+  .col3-footer,
+  .col4-footer {
+    margin: auto
+  }
+
+  .map-site {
+    text-align: start;
+    font-size: 10px;
+    padding-left: 30px;
+
+    a {
+      color: $white-color;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .contact-data {
+    margin-bottom: 30px;
+    padding-left: 30px;
+
+    h2 {
+      text-align: start;
+      font-size: 20px;
+
+      @media screen and (min-width: 1200px) {
+        font-size: 22px;
+      }
+    }
+
+    p {
+      margin-bottom: 5px;
+      font-size: 12px;
+      text-align: start;
+
+      @media screen and (min-width: 1200px) {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .col {
+    margin-bottom: 10px;
+    text-align: start;
+    padding: 0;
+  }
+
+}

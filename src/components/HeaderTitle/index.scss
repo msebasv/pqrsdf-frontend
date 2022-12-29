@@ -1,0 +1,33 @@
+@import '../../styles/colors';
+@import '../../styles/fonts.scss';
+
+.container-banner {
+    background-image: url("../../assets/images/consultasBanner.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    .color-banner {
+        background: rgba(7, 8, 57, .75);
+        padding: 50px;
+
+        @media screen and (min-width: 768px) {
+            padding: 50px;
+        }
+
+        .title-pqrsdf {
+            color: $white-color;
+            font-size: 36px;
+            position: relative;
+            opacity: 1.0;
+            font-family: $secundary-font;
+            font-weight: bolder;
+
+            @media screen and (min-width: 768px) {
+                font-size: 4.0rem;
+                text-align: start;
+            }
+        }
+    }
+}
